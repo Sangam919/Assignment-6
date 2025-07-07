@@ -1,0 +1,29 @@
+{
+  "name": "TR_LastSaturday",
+  "properties": {
+    "type": "ScheduleTrigger",
+    "typeProperties": {
+      "recurrence": {
+        "frequency": "Month",
+        "interval": 1,
+        "schedule": {
+          "minutes": [0],
+          "hours": [0],
+          "weekDays": ["Saturday"],
+          "monthlyOccurrences": [{
+            "week": -1,
+            "day": "Saturday"
+          }]
+        },
+        "startTime": "2024-01-01T00:00:00Z",
+        "timeZone": "UTC"
+      }
+    },
+    "pipelines": [{
+      "pipelineReference": {
+        "referenceName": "PL_FullLoad",
+        "type": "PipelineReference"
+      }
+    }]
+  }
+}
