@@ -1,0 +1,20 @@
+{
+  "name": "TR_Daily",
+  "properties": {
+    "type": "ScheduleTrigger",
+    "typeProperties": {
+      "recurrence": {
+        "frequency": "Day",
+        "interval": 1,
+        "startTime": "2024-01-01T00:00:00Z",
+        "timeZone": "UTC"
+      }
+    },
+    "pipelines": [{
+      "pipelineReference": {
+        "referenceName": "PL_IncrementalLoad",
+        "type": "PipelineReference"
+      }
+    }]
+  }
+}
