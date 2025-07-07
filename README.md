@@ -33,8 +33,7 @@ This project demonstrates data integration capabilities using Azure Data Factory
 - [x] Monthly Trigger Scheduling
 - [x] Error Handling & Retry Logic
 
-## Screenshots
-[Add screenshots of your pipelines]
+
 
 ## Contact
-Your Name - your.email@example.com
+Your Name - sangamsri555@gmail.com
