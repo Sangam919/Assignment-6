@@ -1,0 +1,23 @@
+{
+  "name": "PL_IncrementalLoad",
+  "properties": {
+    "parameters": {
+      "LastWatermark": { "type": "String" }
+    },
+    "activities": [
+      {
+        "name": "IncrementalCopy",
+        "type": "Copy",
+        "inputs": [{"referenceName": "DS_SQL_Table", "type": "DatasetReference"}],
+        "outputs": [{"referenceName": "DS_AzureSQL_Table", "type": "DatasetReference"}],
+        "typeProperties": {
+          "source": {
+            "type": "SqlSource",
+            "sqlReaderQuery": "SELECT * FROM YourTable WHERE LastModifiedDate > '@{pipeline().parameters.LastWatermark}'"
+          },
+          "sink": { "type": "SqlSink" }
+        }
+      }
+    ]
+  }
+}
