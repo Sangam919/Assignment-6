@@ -1,0 +1,21 @@
+{
+  "name": "PL_FullLoad",
+  "properties": {
+    "activities": [
+      {
+        "name": "CopyData",
+        "type": "Copy",
+        "inputs": [{"referenceName": "DS_SQL_Table", "type": "DatasetReference"}],
+        "outputs": [{"referenceName": "DS_AzureSQL_Table", "type": "DatasetReference"}],
+        "typeProperties": {
+          "source": { "type": "SqlSource" },
+          "sink": { "type": "SqlSink" }
+        },
+        "policy": {
+          "retry": 3,
+          "retryIntervalInSeconds": 30
+        }
+      }
+    ]
+  }
+}
