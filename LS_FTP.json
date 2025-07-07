@@ -1,0 +1,16 @@
+{
+  "name": "LS_FTP",
+  "properties": {
+    "type": "FtpServer",
+    "typeProperties": {
+      "host": "ftp://your-ftp-server",
+      "port": 21,
+      "authenticationType": "Basic",
+      "userName": "your-user",
+      "password": {
+        "type": "SecureString",
+        "value": "your-password"
+      }
+    }
+  }
+}
