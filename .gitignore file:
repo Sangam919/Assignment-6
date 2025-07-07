@@ -1,0 +1,24 @@
+# Sensitive files
+**/appsettings.json
+**/connectionstrings.json
+**/*secrets*
+**/.env
+
+# IDE files
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
