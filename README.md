@@ -50,7 +50,7 @@ This project demonstrates data integration capabilities using Azure Data Factory
 - `/docs/shir-setup.md`
 - `deploy-adf.ps1`
 
-##"Files are kept at root level for simplicity but logically grouped by naming."
+## "Files are kept at root level for simplicity but logically grouped by naming."
 
 ## Contact
 Your Name - sangamsri555@gmail.com
