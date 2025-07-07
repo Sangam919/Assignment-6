@@ -52,5 +52,4 @@ This project demonstrates data integration capabilities using Azure Data Factory
 
 ### 📁 Files are kept at root level for simplicity but logically grouped by naming
 
-## Contact
-Your Name - sangamsri555@gmail.com
+
