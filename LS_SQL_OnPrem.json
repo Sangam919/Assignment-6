@@ -1,0 +1,13 @@
+{
+  "name": "LS_SQL_OnPrem",
+  "properties": {
+    "type": "AzureSqlDatabase",
+    "typeProperties": {
+      "connectionString": "Integrated Security=False;Data Source=your-server;Initial Catalog=your-db;User ID=your-username;Password=your-password;"
+    },
+    "connectVia": {
+      "referenceName": "SelfHostedIR",
+      "type": "IntegrationRuntimeReference"
+    }
+  }
+}
