@@ -1,0 +1,17 @@
+{
+  "connections": {
+    "onPremisesSQL": {
+      "connectionString": "Server=YOUR_SERVER;Database=YOUR_DB;Integrated Security=true;",
+      "description": "On-premises SQL Server connection"
+    },
+    "azureSQL": {
+      "connectionString": "Server=tcp:YOUR_SERVER.database.windows.net,1433;Database=YOUR_DB;User ID=YOUR_USER;Password=YOUR_PASSWORD;",
+      "description": "Azure SQL Database connection"
+    },
+    "ftpServer": {
+      "host": "YOUR_FTP_HOST",
+      "username": "YOUR_USERNAME",
+      "description": "FTP server connection details"
+    }
+  }
+}
