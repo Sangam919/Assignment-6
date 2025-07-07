@@ -33,7 +33,22 @@ This project demonstrates data integration capabilities using Azure Data Factory
 - [x] Monthly Trigger Scheduling
 - [x] Error Handling & Retry Logic
 
+## Tasks Covered
 
+- ✅ SHIR Configured
+- ✅ FTP/SFTP Linked Services
+- ✅ Full & Incremental Pipelines
+- ✅ Daily Trigger + Last Saturday Trigger
+- ✅ Retry Logic using policy and wait
+
+## Directory Structure
+
+- `/adf-resources/linkedServices/`
+- `/adf-resources/datasets/`
+- `/adf-resources/pipelines/`
+- `/adf-resources/triggers/`
+- `/docs/shir-setup.md`
+- `deploy-adf.ps1`
 
 ## Contact
 Your Name - sangamsri555@gmail.com
