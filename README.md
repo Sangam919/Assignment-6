@@ -14,7 +14,7 @@ This project demonstrates data integration capabilities using Azure Data Factory
 ## Prerequisites
 - Azure subscription
 - On-premises server or local machine
-- SQL Server (local)
+- SQL Server (local) 
 - Azure SQL Database
 
 ## Setup Instructions
